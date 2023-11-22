@@ -1,0 +1,28 @@
+.titleContainer {
+    padding: 10rem 0 0 3rem;
+    text-align: left;
+}
+
+.titleContainer span {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fbbd61;
+}
+
+.titleContainer h1 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: normal;
+    line-height: 1.4em;
+    position: relative;
+    margin: 20px 0 20px 0;
+}
+
+.titleContainer p {
+    width: 40%;
+    font-size: 18px;
+    color: #fff;
+    margin: 0 0 20px 0;
+    letter-spacing: -.8px;
+}

@@ -1,0 +1,26 @@
+.container{
+    padding: 60px 3rem;
+}
+
+h2 {
+    font-size: 18px;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+    color: #ec7532;
+    font-weight: 300;
+    margin: 0 0 10px 0;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #d8d8d8;
+    position: relative;
+}
+
+h2::after {
+    position: absolute;
+    right: auto;
+    bottom: -1px;
+    display: block;
+    width: 125px;
+    height: 4px;
+    content: '';
+    background: linear-gradient(to right, #ec7532 0%, #fbbd61 100%);
+}
